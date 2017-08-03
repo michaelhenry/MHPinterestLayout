@@ -1,6 +1,6 @@
 # MHPinterestLayout
 
-[![CI Status](http://img.shields.io/travis/Michael Henry Pantaleon/MHPinterestLayout.svg?style=flat)](https://travis-ci.org/Michael Henry Pantaleon/MHPinterestLayout)
+[![CI Status](http://img.shields.io/travis/michaelhenry/MHPinterestLayout.svg?style=flat)](https://travis-ci.org/michaelhenry/MHPinterestLayout)
 [![Version](https://img.shields.io/cocoapods/v/MHPinterestLayout.svg?style=flat)](http://cocoapods.org/pods/MHPinterestLayout)
 [![License](https://img.shields.io/cocoapods/l/MHPinterestLayout.svg?style=flat)](http://cocoapods.org/pods/MHPinterestLayout)
 [![Platform](https://img.shields.io/cocoapods/p/MHPinterestLayout.svg?style=flat)](http://cocoapods.org/pods/MHPinterestLayout)
