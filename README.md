@@ -5,6 +5,44 @@
 [![License](https://img.shields.io/cocoapods/l/MHPinterestLayout.svg?style=flat)](http://cocoapods.org/pods/MHPinterestLayout)
 [![Platform](https://img.shields.io/cocoapods/p/MHPinterestLayout.svg?style=flat)](http://cocoapods.org/pods/MHPinterestLayout)
 
+## Possible output
+
+```
+/*  
+ |___________|
+ |__1__|  2  |
+ |__3__|_____|
+ |  4  |__5__|
+ |_____|__6__|
+ |     |__8__|
+ |  7  |__9__|
+ |_____|__10_|
+ |  11 |     |
+ |_____|  12 |
+ |  13 |_____|
+ |_____|__14_|
+ |           |
+ 
+ if 2 columned view
+ (0,0)
+ (1,0)
+ (0,1)
+ (0,2)
+ (1,2)
+ (1,3)
+ (0,4)
+ (1,4)
+ (1,5)
+ (1,6)
+ (0,7)
+ (1,7)
+ (0,9)
+ (1,10)
+ */
+
+
+```
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
