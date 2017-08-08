@@ -29,6 +29,7 @@ public class MHPinterestLayout:UICollectionViewLayout {
     public var headerHeight:CGFloat = 200
     public var footerHeight:CGFloat = 0
     public var horizontalCellSpacing:CGFloat = 10.0
+    public var verticalCellSpacing:CGFloat = 10.0
     
     private var cache = [MHPinterestLayoutAttributes]()
     private var contentHeight:CGFloat = 0
@@ -80,7 +81,7 @@ public class MHPinterestLayout:UICollectionViewLayout {
             // create a frame for the item
             let x =  CGFloat(columnIndex + 1) * horizontalCellSpacing + (cellContentWidth * CGFloat(columnIndex))
             let itemRect = CGRect(x:x,
-                                  y: colHeights[columnIndex],
+                                  y: colHeights[columnIndex] + verticalCellSpacing,
                                   width: cellContentWidth,
                                   height: height)
             
@@ -89,14 +90,14 @@ public class MHPinterestLayout:UICollectionViewLayout {
             cache.append(attributes)
             
             // append the item.height to the currenct colHeight
-            colHeights[columnIndex] = colHeights[columnIndex] + height
+            colHeights[columnIndex] = colHeights[columnIndex] + height + verticalCellSpacing
             
             // make the contentHeight equal to which ever has the max colHeight
-            contentHeight = colHeights
+            contentHeight = (colHeights
                 .enumerated()
                 .sorted {
                     $0.element > $1.element
-                }.first?.element ?? 0
+                }.first?.element ?? 0) + verticalCellSpacing
         }
     }
     
