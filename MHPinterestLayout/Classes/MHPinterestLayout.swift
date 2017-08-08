@@ -25,9 +25,10 @@ public class MHPinterestLayout:UICollectionViewLayout {
         }
     }
     
-    public fileprivate(set) var columnWidth:CGFloat = 0
+    
     public var headerHeight:CGFloat = 200
     public var footerHeight:CGFloat = 0
+    public var horizontalCellSpacing:CGFloat = 10.0
     
     private var cache = [MHPinterestLayoutAttributes]()
     private var contentHeight:CGFloat = 0
@@ -35,9 +36,12 @@ public class MHPinterestLayout:UICollectionViewLayout {
         get {
             return collectionView!.bounds.width
         }
-        
     }
     
+    public var cellContentWidth:CGFloat {
+        return (width - (horizontalCellSpacing * CGFloat(columns + 1)))/CGFloat(columns)
+    }
+  
     override public var collectionViewContentSize: CGSize {
         return CGSize(width: width, height: contentHeight)
     }
@@ -48,8 +52,6 @@ public class MHPinterestLayout:UICollectionViewLayout {
             return
         }
 
-        columnWidth = width/CGFloat(columns)
-        
         var colHeights:[CGFloat] = [CGFloat](repeatElement(headerHeight, count: columns))
         
         let headerAttribute = MHPinterestLayoutAttributes(forSupplementaryViewOfKind: UICollectionElementKindSectionHeader,
@@ -73,11 +75,13 @@ public class MHPinterestLayout:UICollectionViewLayout {
             let height:CGFloat = self.delegate.collectionView(collectionView!,
                                                               heightForItemAtIndexPath: indexPath)
             
+           
             
             // create a frame for the item
-            let itemRect = CGRect(x: CGFloat(columnIndex) * columnWidth,
+            let x =  CGFloat(columnIndex + 1) * horizontalCellSpacing + (cellContentWidth * CGFloat(columnIndex))
+            let itemRect = CGRect(x:x,
                                   y: colHeights[columnIndex],
-                                  width: columnWidth,
+                                  width: cellContentWidth,
                                   height: height)
             
             let attributes = MHPinterestLayoutAttributes(forCellWith: indexPath)
