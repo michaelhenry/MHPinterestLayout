@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -18,19 +18,19 @@
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zhJ-zt-drw" customClass="RoundedCornerView" customModule="MHPinterestLayout_Example" customModuleProvider="target">
-                        <rect key="frame" x="7.5" y="5" width="436" height="320"/>
+                        <rect key="frame" x="0.0" y="0.0" width="451" height="330"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Til-6u-kze">
-                                <rect key="frame" x="0.0" y="0.0" width="436" height="320"/>
+                                <rect key="frame" x="0.0" y="0.0" width="451" height="330"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wGH-tc-nGQ">
-                                        <rect key="frame" x="0.0" y="0.0" width="436" height="165"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="451" height="165"/>
                                         <constraints>
                                             <constraint firstAttribute="height" priority="761" constant="165" id="Pv7-Be-yiX"/>
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello world" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zun-Ej-kTk">
-                                        <rect key="frame" x="0.0" y="165" width="436" height="155"/>
+                                        <rect key="frame" x="0.0" y="165" width="451" height="165"/>
                                         <constraints>
                                             <constraint firstAttribute="height" priority="754" constant="165" id="7yO-Ey-Sc3"/>
                                         </constraints>
@@ -66,10 +66,10 @@
                 </subviews>
             </view>
             <constraints>
-                <constraint firstAttribute="trailing" secondItem="zhJ-zt-drw" secondAttribute="trailing" constant="7.5" id="8sN-Xl-bij"/>
-                <constraint firstItem="zhJ-zt-drw" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="93I-0Q-XVO"/>
-                <constraint firstItem="zhJ-zt-drw" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="7.5" id="A5G-Xv-Faf"/>
-                <constraint firstAttribute="bottom" secondItem="zhJ-zt-drw" secondAttribute="bottom" constant="5" id="srh-mT-X3w"/>
+                <constraint firstAttribute="trailing" secondItem="zhJ-zt-drw" secondAttribute="trailing" id="8sN-Xl-bij"/>
+                <constraint firstItem="zhJ-zt-drw" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="93I-0Q-XVO"/>
+                <constraint firstItem="zhJ-zt-drw" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="A5G-Xv-Faf"/>
+                <constraint firstAttribute="bottom" secondItem="zhJ-zt-drw" secondAttribute="bottom" id="srh-mT-X3w"/>
             </constraints>
             <size key="customSize" width="451" height="330"/>
             <connections>

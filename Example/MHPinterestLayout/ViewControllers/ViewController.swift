@@ -119,8 +119,7 @@ extension ViewController:MHPinterestLayoutDelegate {
         let story = items[indexPath.item]
         let caption = story.indexedCaption(indexPath.row)
         
-        let xPaddings:CGFloat = 15
-        let itemWidth:CGFloat = layout.columnWidth - xPaddings
+        let itemWidth:CGFloat = layout.cellContentWidth
         
         let captionHeight = caption.computedHeight(atWidth: itemWidth, font: AppFont.caption.value)
         let imageHeight = (story.attachment?.computedHeight(atWidth: itemWidth) ?? 0)
