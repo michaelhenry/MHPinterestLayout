@@ -7,7 +7,7 @@
 
 
 
-![MHPinterestLayout](https://iamkel.s3.amazonaws.com/opensource/mhpinterestlayout/1.png "MHPinterestLayout")
+![MHPinterestLayout screenshot](https://iamkel.s3.amazonaws.com/opensource/mhpinterestlayout/1.png?u=kel "MHPinterestLayout")
 
 ## Possible output
 
