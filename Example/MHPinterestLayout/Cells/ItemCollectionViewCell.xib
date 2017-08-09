@@ -17,7 +17,7 @@
                 <rect key="frame" x="0.0" y="0.0" width="451" height="330"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
-                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zhJ-zt-drw" customClass="RoundedCornerView" customModule="MHPinterestLayout_Example" customModuleProvider="target">
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zhJ-zt-drw" customClass="RoundedCornerView" customModule="MHPinterestLayout_Example" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="451" height="330"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Til-6u-kze">
