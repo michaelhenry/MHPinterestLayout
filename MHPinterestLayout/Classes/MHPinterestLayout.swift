@@ -1,5 +1,6 @@
 
 import UIKit
+import SwiftCommonUtils
 
 public protocol MHPinterestLayoutDelegate {
     
@@ -137,3 +138,5 @@ public class MHPinterestLayout:UICollectionViewLayout {
         super.invalidateLayout()
     }
 }
+
+extension MHPinterestLayout:Configurable {}
