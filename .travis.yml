@@ -9,4 +9,5 @@ podfile: Example/Podfile
 before_install:
 - gem install cocoapods
 script:
+- pod install --repo-update
 - pod lib lint --allow-warnings

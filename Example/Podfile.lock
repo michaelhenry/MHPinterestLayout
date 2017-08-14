@@ -5,7 +5,7 @@ PODS:
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
   - MHPinterestLayout (0.1.0):
-    - SwiftCommonUtils (~> 0.1)
+    - SwiftCommonUtils (= 0.1.5)
   - Nimble (5.1.1)
   - Nimble-Snapshots (4.4.0):
     - Nimble-Snapshots/Core (= 4.4.0)
@@ -14,7 +14,6 @@ PODS:
     - Nimble
     - Quick
   - Quick (1.0.0)
-  - SnapKit (3.2.0)
   - SwiftCommonUtils (0.1.5)
 
 DEPENDENCIES:
@@ -23,21 +22,19 @@ DEPENDENCIES:
   - Nimble (~> 5.1.1)
   - Nimble-Snapshots
   - Quick (~> 1.0.0)
-  - SnapKit (~> 3.2)
 
 EXTERNAL SOURCES:
   MHPinterestLayout:
-    :path: "../"
+    :path: ../
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  MHPinterestLayout: 03ac6167b53ced4fe91aef3c3b3f4a7ac0240dae
+  MHPinterestLayout: 12fb0196f9789749aa6f3d5a35dbdbb5b56cc4f1
   Nimble: 415e3aa3267e7bc2c96b05fa814ddea7bb686a29
   Nimble-Snapshots: e743439f26c2fa99d8f7e0d7c01c99bcb40aa6f2
   Quick: 8024e4a47e6cc03a9d5245ef0948264fc6d27cff
-  SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
   SwiftCommonUtils: 256b1bf32731d4b9df27d98b5b900c466d384bbc
 
-PODFILE CHECKSUM: 5aff72d90e8bb1d6542a56af54bcb1103042d1f3
+PODFILE CHECKSUM: 7ab990bf75a2c7d5371728b1e1fe54e156c49ec9
 
 COCOAPODS: 1.2.1

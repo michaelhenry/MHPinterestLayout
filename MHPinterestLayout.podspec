@@ -38,5 +38,5 @@ Dynamic Pinterest CollectionView Layout
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'SwiftCommonUtils', '~> 0.1'
+  s.dependency 'SwiftCommonUtils', '0.1.5'
 end
