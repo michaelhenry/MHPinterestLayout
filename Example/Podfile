@@ -2,9 +2,6 @@ use_frameworks!
 
 target 'MHPinterestLayout_Example' do
   pod 'MHPinterestLayout', :path => '../'
-  pod 'SnapKit', '~> 3.2'
- 
-  
   
   target 'MHPinterestLayout_Tests' do
     inherit! :search_paths

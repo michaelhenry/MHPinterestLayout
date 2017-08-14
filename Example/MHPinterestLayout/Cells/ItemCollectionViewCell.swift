@@ -15,9 +15,7 @@ class ItemCollectionViewCell: UICollectionViewCell {
 
     @IBOutlet weak var imageHeightConstraint: NSLayoutConstraint!
     @IBOutlet weak var captionHeightConstraint: NSLayoutConstraint!
-    
-    var delegate:ItemCellDelegate?
-    
+
     override func awakeFromNib() {
         super.awakeFromNib()
         

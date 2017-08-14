@@ -19,7 +19,6 @@
 		A61E46F51F320AF7005E4EB4 /* HeaderReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A61E46F11F320AF7005E4EB4 /* HeaderReusableView.xib */; };
 		A61E46F61F320AF7005E4EB4 /* ItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61E46F21F320AF7005E4EB4 /* ItemCollectionViewCell.swift */; };
 		A61E46F71F320AF7005E4EB4 /* ItemCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A61E46F31F320AF7005E4EB4 /* ItemCollectionViewCell.xib */; };
-		A61E46FE1F320B98005E4EB4 /* ItemCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61E46FD1F320B98005E4EB4 /* ItemCellDelegate.swift */; };
 		A61E470C1F321804005E4EB4 /* UIImage+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61E470B1F321804005E4EB4 /* UIImage+Extras.swift */; };
 		A6CD88A71F33A14700993B5C /* String+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CD88A61F33A14700993B5C /* String+Extras.swift */; };
 		A8450D49DE0C28B2B9DE9A8D /* Pods_MHPinterestLayout_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 874339ED708436A5E86B1BDC /* Pods_MHPinterestLayout_Tests.framework */; };
@@ -61,7 +60,6 @@
 		A61E46F11F320AF7005E4EB4 /* HeaderReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HeaderReusableView.xib; path = Cells/HeaderReusableView.xib; sourceTree = "<group>"; };
 		A61E46F21F320AF7005E4EB4 /* ItemCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemCollectionViewCell.swift; path = Cells/ItemCollectionViewCell.swift; sourceTree = "<group>"; };
 		A61E46F31F320AF7005E4EB4 /* ItemCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ItemCollectionViewCell.xib; path = Cells/ItemCollectionViewCell.xib; sourceTree = "<group>"; };
-		A61E46FD1F320B98005E4EB4 /* ItemCellDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemCellDelegate.swift; path = Delegates/ItemCellDelegate.swift; sourceTree = "<group>"; };
 		A61E470B1F321804005E4EB4 /* UIImage+Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImage+Extras.swift"; path = "Extensions/UIImage+Extras.swift"; sourceTree = "<group>"; };
 		A6CD88A61F33A14700993B5C /* String+Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+Extras.swift"; path = "Extensions/String+Extras.swift"; sourceTree = "<group>"; };
 		F1D700521A1CE7177DBC5008 /* Pods-MHPinterestLayout_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MHPinterestLayout_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MHPinterestLayout_Tests/Pods-MHPinterestLayout_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -245,7 +243,6 @@
 		A61E46FC1F320B6F005E4EB4 /* Delegates */ = {
 			isa = PBXGroup;
 			children = (
-				A61E46FD1F320B98005E4EB4 /* ItemCellDelegate.swift */,
 			);
 			name = Delegates;
 			sourceTree = "<group>";
@@ -457,7 +454,6 @@
 				A61E46EA1F320ACF005E4EB4 /* AppFont.swift in Sources */,
 				A61E46F41F320AF7005E4EB4 /* HeaderReusableView.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
-				A61E46FE1F320B98005E4EB4 /* ItemCellDelegate.swift in Sources */,
 				A61E46ED1F320AD8005E4EB4 /* ViewController.swift in Sources */,
 				A61E46EB1F320ACF005E4EB4 /* Story.swift in Sources */,
 				A61E46F61F320AF7005E4EB4 /* ItemCollectionViewCell.swift in Sources */,
@@ -597,6 +593,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MHPinterestLayout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -611,6 +608,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MHPinterestLayout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
