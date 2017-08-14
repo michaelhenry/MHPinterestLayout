@@ -51,6 +51,10 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+## Demo
+
+[View demo](https://appetize.io/app/y8kaw6ttmr0cha8rbd0732qm0g?device=iphone5s&scale=75&orientation=portrait&osVersion=9.3)
+
 ## Requirements
 
 ## Installation
