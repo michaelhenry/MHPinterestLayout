@@ -10,5 +10,4 @@ before_install:
 - gem install cocoapods
 - pod update
 script:
-- pod install --repo-update
 - pod lib lint --allow-warnings
