@@ -8,6 +8,5 @@ cache: cocoapods
 podfile: Example/Podfile
 before_install:
 - gem install cocoapods
-- pod update
 script:
 - pod lib lint --allow-warnings
