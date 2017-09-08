@@ -66,6 +66,14 @@ it, simply add the following line to your Podfile:
 pod "MHPinterestLayout"
 ```
 
+## Troubleshooting
+
+Experience a pod problem about looking for dependency?
+just try to update your pod repo by doing this.
+
+```ruby
+pod install --repo-update
+```
 ## Author
 
 Michael Henry Pantaleon, me@iamkel.net
