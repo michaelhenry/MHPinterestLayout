@@ -68,7 +68,7 @@ pod "MHPinterestLayout"
 
 ## Troubleshooting
 
-Experience a pod problem about looking for dependency?
+Experience a pod problem about looking for pod dependency?
 just try to update your pod repo by doing this.
 
 ```ruby
