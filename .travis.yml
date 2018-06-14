@@ -18,6 +18,6 @@ jobs:
         - export MHPINTERESTLAYOUT_VERSION=$TRAVIS_TAG
         - gem install cocoapods
       script:
-        - pod lib lint --allow-warnings
-        - pod trunk push --allow-warnings
+        - pod lib lint --allow-warnings --swift-version=4.2
+        - pod trunk push --allow-warnings --swift-version=4.2
       if: tag IS present
