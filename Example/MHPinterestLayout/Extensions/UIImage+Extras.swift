@@ -10,9 +10,9 @@ import UIKit
 import AVFoundation
 
 extension UIImage {
-    func computedHeight(atWidth width:CGFloat) -> CGFloat {
-        let boundingRect =  CGRect(x: 0, y: 0, width: width, height: CGFloat(MAXFLOAT))
-        let rect  = AVMakeRect(aspectRatio: self.size, insideRect: boundingRect)
-        return rect.size.height
-    }
+  func computedHeight(atWidth width:CGFloat) -> CGFloat {
+    let boundingRect =  CGRect(x: 0, y: 0, width: width, height: CGFloat(MAXFLOAT))
+    let rect  = AVMakeRect(aspectRatio: self.size, insideRect: boundingRect)
+    return rect.size.height
+  }
 }

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MHPinterestLayout'
-  s.version          = '0.1.0'
+  s.version          = ENV["MHPINTEREST_LAYOUT_VERSION"] || "1.0.0"
   s.summary          = 'Dynamic Pinterest CollectionView Layout'
 
 # This description is used to generate tags and improve search results.
@@ -35,8 +35,4 @@ Dynamic Pinterest CollectionView Layout
   # s.resource_bundles = {
   #   'MHPinterestLayout' => ['MHPinterestLayout/Assets/*.png']
   # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'SwiftCommonUtils', '0.1.5'
 end

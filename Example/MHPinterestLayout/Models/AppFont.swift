@@ -9,22 +9,23 @@
 import UIKit
 
 enum AppFont  {
-    
-    case caption
-    case userStatInfoLabel
-    case userStatInfoValue
-    
+  
+  case caption
+  case userStatInfoLabel
+  case userStatInfoValue
+  
 }
 
 extension AppFont {
-    var value:UIFont {
-        switch(self) {
-        case .caption:
-            return UIFont(name: "AvenirNext-Regular", size: 14)!
-        case .userStatInfoLabel:
-            return UIFont(name: "AvenirNext-Bold", size: 12)!
-        case .userStatInfoValue:
-            return UIFont(name: "AvenirNext-Regular", size: 14)!
-        }
+  var value:UIFont {
+    switch(self) {
+    case .caption:
+      return UIFont(name: "AvenirNext-Regular", size: 14)!
+    case .userStatInfoLabel:
+      return UIFont(name: "AvenirNext-Bold", size: 12)!
+    case .userStatInfoValue:
+      return UIFont(name: "AvenirNext-Regular", size: 14)!
     }
+  }
 }
+
